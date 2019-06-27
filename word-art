@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+
+<?php
+
+require_once __DIR__.'/vendor/autoload.php';
+
+use Sun\Console\App;
+use Sun\Console\Commands\ShowCommand;
+
+$app = new App();
+$app->add(new ShowCommand());
+$status = $app->run();
+exit($status);

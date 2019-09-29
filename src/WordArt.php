@@ -8,7 +8,7 @@ use Sun\Db\WordsDb;
 
 class WordArt implements WordArtInterface
 {
-	const URL = 'http://guozhivip.com/nav/api/api.php';
+	const URL = 'http://guozhivip.com/yy/api/api.php';
 
 	/**
 	 * 获取一句
